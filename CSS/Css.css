@@ -1,0 +1,154 @@
+.container {
+	opacity: 0.95;
+}
+
+body {
+	background-color: black;
+	
+}
+
+#menuBG {
+	margin: 0% auto;
+	width: 650px;
+	padding: 1px 0px;
+	opacity: 1;
+}
+
+#menuBG>h1 {
+	font-family: 'Lucida Console';
+	font-size: 50px;
+	color: red;
+	text-shadow: 1.5px 1.5px 5px #fff, 1px 1px 5px #000;
+	margin: 2% 2 0 auto;
+	text-align: center;	
+}
+
+#frmMenu {
+	margin: 0% auto;
+	width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+	border-radius: 25px;
+}
+
+.menu { 
+	flex: 1 150px;
+	min-width: 0;
+	box-shadow: 0 0 0 3px darkred;
+	padding: 0 0 20px 0;
+}
+
+.menu {
+	
+	color:black;
+	padding: 0 0 20px 60px;
+	margin: 0 auto;
+	background-color: silver;
+	
+}
+
+.button {
+	cursor: pointer;
+	color:silver;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	border-radius: .5em;
+	margin: 1% auto;
+	padding: .1px 0 .1px 0px;
+    font: 18px lucida console;
+	background-color: red; 
+	box-shadow: 0 0 0 2px rgba(255,255,255, .8);
+	transition-property: transform background, box-shadow, color;
+	transition-duration: .3s, .5s, .2s;
+	transition-timing-function: eas-in-out;
+}
+
+.button>p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.button:hover {
+	font: 18px lucida console;
+	font-weight: bold;
+	color: #000;
+	background-color: red;
+	box-shadow: 0 0 0 2px #080054;
+}
+
+.controls {
+	display: flex;
+    flex-direction: columns;
+    justify-content: space-between;
+	margin: 0 auto;
+	width: 550px;
+}
+
+.controls>.button {
+	flex: 1 150px;
+}
+
+#cart {
+	opacity: 0;
+	margin: 15px auto;
+	width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+	background-color: rgba(244, 245, 247, 0.9);
+	border: 2px solid #080054;
+	box-shadow: 0 0 0 3px rgba(255,255,255, .8);
+	
+}
+
+#title1 {
+	color: #fff;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: #333333;
+}
+
+#title2 {
+	color: #fff;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: #333333;
+	
+}
+
+#showText1 {
+	font-size: 13px;
+	flex: 1 250px;
+	padding: 1px 0 10px 10px;
+	width: 250px;
+}
+
+#showText2 {
+	font-size: 13px;
+	flex: 1 250px;
+	padding: 1px 0 10px 10px;
+	width: 250px;
+}
+
+#totalPrice1 {
+	flex: 1 250px;
+	padding: 0 0 10px 10px;
+	width: 250px;
+}
+
+#totalPrice2 {
+	flex: 1 250px;
+	font-weight: bold;
+	padding: 20px 0 10px 10px;
+	width: 250px;
+}
